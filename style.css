@@ -1,0 +1,23 @@
+body {
+  margin-top: 100px;
+}
+
+h1 {
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h2 {
+  font-size: 100px;
+}
+
+.MJ-inicial {
+  display: block;
+  margin: 0 auto;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
