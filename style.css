@@ -10,14 +10,37 @@ h1 {
 h2 {
   font-size: 100px;
 }
-
+.fixed-top {
+  position: fixed;
+}
 .MJ-inicial {
-  display: block;
-  margin: 0 auto;
+  display: block !important;
+  margin: 30px;
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+}
+
+.contact-selection {
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .contairner {
+    display: block;
+    margin: 20px auto;
+  }
+  .container-two {
+    display: block;
+    margin: 20px auto;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    display: block !important;
+    margin-top: 0 auto;
+  }
 }
