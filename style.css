@@ -9,6 +9,8 @@ h1 {
 }
 h2 {
   font-size: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .fixed-top {
   position: fixed;
@@ -23,7 +25,17 @@ h2 {
   margin-top: 40px;
   justify-content: center;
 }
+.primary-link {
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
 
+  padding: 10px 20px;
+}
+.primary-link :hover {
+  color: white;
+  text-decoration: none;
+}
 .contact-selection {
   display: block;
   margin: 0 auto;
