@@ -45,6 +45,9 @@ h2 {
   display: block;
   margin: 0px auto;
 }
+.photo-link {
+  transition: all 150ms ease-in-out;
+}
 
 .mari-an {
   width: 480px;
