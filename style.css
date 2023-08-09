@@ -35,8 +35,7 @@ h2 {
   background-color: #6c63ff;
   color: white;
   text-decoration: none;
-
-  padding: 10px 20px;
+  padding: 5px 20px 5px 20px;
 }
 .primary-link :hover {
   color: white;
@@ -47,6 +46,9 @@ h2 {
   margin: 0px auto;
 }
 
+.mari-an {
+  width: 480px;
+}
 @media (max-width: 768px) {
   .mari-an {
     display: block;
@@ -58,4 +60,13 @@ h2 {
     display: block !important;
     margin-top: 0px auto;
   }
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+}
+.btn {
+  color: blueviolet;
 }
