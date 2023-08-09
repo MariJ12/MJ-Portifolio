@@ -7,17 +7,23 @@ h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 h2 {
   font-size: 100px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+.my-name {
+  font-size: 80px;
+}
 .fixed-top {
   position: fixed;
 }
 .MJ-inicial {
-  display: block !important;
-  margin: 30px;
+  display: center;
+  margin: 0 auto;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .navigation-links {
@@ -38,21 +44,18 @@ h2 {
 }
 .contact-selection {
   display: block;
-  margin: 0 auto;
+  margin: 0px auto;
 }
+
 @media (max-width: 768px) {
-  .contairner {
+  .mari-an {
     display: block;
-    margin: 20px auto;
-  }
-  .container-two {
-    display: block;
-    margin: 20px auto;
+    margin: 0px auto;
   }
 }
 @media (min-width: 576px) {
   .col-sm-6 {
     display: block !important;
-    margin-top: 0 auto;
+    margin-top: 0px auto;
   }
 }
