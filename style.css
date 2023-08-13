@@ -4,6 +4,12 @@ body {
   background-size: cover;
 }
 
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #2d2727;
+  --accent-color: #f65282;
+  --background-color: #1b1b1b;
+}
 h1 {
   font-style: italic;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,8 +21,18 @@ h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+.navbar-brand {
+  color: var(--accent-color);
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 1.6px;
+  line-height: 40px;
+  text-decoration: none;
+}
 .my-name {
   font-size: 80px;
+  color: var(--accent-color);
 }
 .fixed-top {
   position: fixed;
@@ -31,10 +47,10 @@ h2 {
   padding-bottom: 20px;
   padding-left: 20px;
   border-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
   border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 80px;
 }
 .all-container-pg2 {
   display: center;
@@ -46,8 +62,8 @@ h2 {
   padding-bottom: 20px;
   padding-left: 20px;
   border-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 20px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -62,23 +78,6 @@ h2 {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-}
-.primary-link {
-  background-color: #6c63ff;
-  color: white;
-  text-decoration: none;
-  padding: 5px 20px 5px 20px;
-}
-.primary-link :hover {
-  color: white;
-  text-decoration: none;
-}
-.contact-selection {
-  display: block;
-  margin: 0px auto;
-}
-.photo-link {
-  transition: all 150ms ease-in-out;
 }
 
 .mari-an {
@@ -102,6 +101,19 @@ h2 {
   margin: 0 auto;
   text-align: left;
 }
+
 .btn {
-  color: blueviolet;
+  background: var(--accent-color);
+  color: var(--primary-color);
+}
+.btn-white {
+  margin-bottom: 10px;
+  background: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.copy-right {
+  text-align: center;
+  display: block;
+  margin-top: 0px auto;
 }
